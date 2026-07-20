@@ -1,9 +1,9 @@
 from fastapi import FastAPI
 
-from db import SQLModel, engine
+from db import create_db_and_tables
 
 app = FastAPI()
-SQLModel.metadata.create_all(engine)
+create_db_and_tables()
 
 @app.get("/")
 def main():
