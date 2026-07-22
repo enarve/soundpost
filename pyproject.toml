@@ -8,3 +8,7 @@ dependencies = [
     "fastapi[standard]>=0.139.2",
     "sqlmodel>=0.0.39",
 ]
+
+[tool.basedpyright]
+reportAssignmentType = false
+reportUnannotatedClassAttribute = false
