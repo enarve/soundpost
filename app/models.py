@@ -9,9 +9,9 @@ class User(SQLModel, table=True):
     password_hash: str
     created_at: str
     
-    display_name: str | None
-    about_me: str | None
-    website: str | None
+    display_name: str | None = None
+    about_me: str | None = None
+    website: str | None = None
 
 # class Artist(SQLModel, table=True):
 #     __tablename__ = "artists"
