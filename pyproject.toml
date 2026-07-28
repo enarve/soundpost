@@ -12,3 +12,4 @@ dependencies = [
 [tool.basedpyright]
 reportAssignmentType = false
 reportUnannotatedClassAttribute = false
+reportImplicitRelativeImport = false
