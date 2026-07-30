@@ -1,6 +1,6 @@
 from sqlmodel import SQLModel, Session, create_engine
 
-from models import Artist
+from app.models import Artist
 
 database_url = "sqlite:///database.db"
 engine = create_engine(database_url, echo=True)

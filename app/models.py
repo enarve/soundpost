@@ -4,7 +4,8 @@ class User(SQLModel, table=True):
     __tablename__ = "users"
     
     id: int | None = Field(default=None, primary_key=True)
-    created_at: str | None
+    created_at: str | None = None
+    
     username: str
     email: str
     password_hash: str
