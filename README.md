@@ -1,11 +1,11 @@
 # Soundpost
 
-## Building
+## Run
 
 ```sh
 $ uv sync
 ```
 
 ```sh
-$ uv run fastapi dev app/main.py
+$ uv run fastapi dev main.py
 ```
